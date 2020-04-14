@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MPicSorter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="yearChk" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="monthChk" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="dayChk" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en</Value>
+    </Setting>
+    <Setting Name="monthFormat" Type="MPicSorter.Objects.DateFormat" Scope="User">
+      <Value Profile="(Default)">Numeral</Value>
+    </Setting>
+    <Setting Name="dayFormat" Type="MPicSorter.Objects.DateFormat" Scope="User">
+      <Value Profile="(Default)">Numeral</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

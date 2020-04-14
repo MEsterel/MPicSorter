@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutBtn" xml:space="preserve">
+    <value> Außerdem</value>
+  </data>
+  <data name="browseBtn" xml:space="preserve">
+    <value>Reise...</value>
+  </data>
+  <data name="dateFormatLbl" xml:space="preserve">
+    <value>Datumsformat:</value>
+  </data>
+  <data name="dayChk" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="inputFolderLbl" xml:space="preserve">
+    <value>ORDNER ZUM SORTIEREN</value>
+  </data>
+  <data name="inputPathLbl" xml:space="preserve">
+    <value>Ursprung:</value>
+  </data>
+  <data name="inputSelectionLbl" xml:space="preserve">
+    <value>Wählen Sie einen Ordner zum Sortieren</value>
+  </data>
+  <data name="LangName" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="monthChk" xml:space="preserve">
+    <value>Monat</value>
+  </data>
+  <data name="numeralFormatChk" xml:space="preserve">
+    <value>Digital</value>
+  </data>
+  <data name="optionsBtn" xml:space="preserve">
+    <value> Optionen</value>
+  </data>
+  <data name="outputDirectoryLbl" xml:space="preserve">
+    <value>ZIELORDNER</value>
+  </data>
+  <data name="outputPathLbl" xml:space="preserve">
+    <value>Ziel:</value>
+  </data>
+  <data name="outputSelectionLbl" xml:space="preserve">
+    <value>Wählen Sie einen Zielordner</value>
+  </data>
+  <data name="sortGroupBox" xml:space="preserve">
+    <value>Sortierschema</value>
+  </data>
+  <data name="startBtn" xml:space="preserve">
+    <value> START</value>
+  </data>
+  <data name="textFormatChk" xml:space="preserve">
+    <value>In Briefen</value>
+  </data>
+  <data name="yearChk" xml:space="preserve">
+    <value>Jahr</value>
+  </data>
+  <data name="formatNumeralToolStripMenuItem" xml:space="preserve">
+    <value>Format: numerisch</value>
+  </data>
+  <data name="formatTextToolStripMenuItem" xml:space="preserve">
+    <value>Format: in Buchstaben</value>
+  </data>
+  <data name="april" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="august" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="december" xml:space="preserve">
+    <value>Dezember</value>
+  </data>
+  <data name="february" xml:space="preserve">
+    <value>Februar</value>
+  </data>
+  <data name="january" xml:space="preserve">
+    <value>Januar</value>
+  </data>
+  <data name="july" xml:space="preserve">
+    <value>Juli</value>
+  </data>
+  <data name="june" xml:space="preserve">
+    <value>Juni</value>
+  </data>
+  <data name="march" xml:space="preserve">
+    <value>März</value>
+  </data>
+  <data name="may" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="november" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="october" xml:space="preserve">
+    <value>Oktober</value>
+  </data>
+  <data name="september" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="duplicateChk" xml:space="preserve">
+    <value>Suchen Sie beim Sortieren nach Duplikaten</value>
+  </data>
+  <data name="languageLbl" xml:space="preserve">
+    <value>Sprache:</value>
+  </data>
+  <data name="optionsLbl" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="yourPicturesLbl" xml:space="preserve">
+    <value>Ihre Fotos</value>
+  </data>
+  <data name="cancelBtn" xml:space="preserve">
+    <value>Kündigen</value>
+  </data>
+  <data name="processingLbl" xml:space="preserve">
+    <value>Verarbeitung:</value>
+  </data>
+  <data name="progressionLbl" xml:space="preserve">
+    <value>Progression:</value>
+  </data>
+  <data name="sortingLbl" xml:space="preserve">
+    <value>Sortierung...</value>
+  </data>
+  <data name="aFileNamed" xml:space="preserve">
+    <value>Eine benannte Datei</value>
+  </data>
+  <data name="alreadyExistsReplaceIt" xml:space="preserve">
+    <value>existiert bereits. Möchten Sie es ersetzen? Wählen Sie Nein aus, um beide Dateien beizubehalten.</value>
+  </data>
+  <data name="attention" xml:space="preserve">
+    <value>Achtung</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Stornieren</value>
+  </data>
+  <data name="copyingFiles" xml:space="preserve">
+    <value>Dateien kopieren...</value>
+  </data>
+  <data name="couldNotBeCopied" xml:space="preserve">
+    <value>konnte nicht kopiert werden.</value>
+  </data>
+  <data name="couldNotBeReplaced" xml:space="preserve">
+    <value>konnte nicht ersetzen werden.</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Details:</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="errorOccured" xml:space="preserve">
+    <value>Bei der Dateisortierung ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="file" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="fileSorted" xml:space="preserve">
+    <value>Ihre Dateien wurden sortiert.</value>
+  </data>
+  <data name="finalizing" xml:space="preserve">
+    <value>Abschluss...</value>
+  </data>
+  <data name="preparingFileSorting" xml:space="preserve">
+    <value>Dateisortierung vorbereiten...</value>
+  </data>
+  <data name="readingExistingFiles" xml:space="preserve">
+    <value>Vorhandene Dateien lesen...</value>
+  </data>
+  <data name="success" xml:space="preserve">
+    <value>Erfolg</value>
+  </data>
+  <data name="workCancelled" xml:space="preserve">
+    <value>Dateisortierung wurde abgebrochen.</value>
+  </data>
+  <data name="cancellingBtn" xml:space="preserve">
+    <value>Kündigen...</value>
+  </data>
+  <data name="exampleLbl" xml:space="preserve">
+    <value>Beispiel:</value>
+  </data>
+  <data name="alwaysOverwrite" xml:space="preserve">
+    <value>Möchten Sie noch vorhandene Dateien ersetzen?</value>
+  </data>
+  <data name="alwaysRename" xml:space="preserve">
+    <value>Möchten Sie immer Dateien mit dem gleichen Namen behalten?</value>
+  </data>
+  <data name="selectInputDirectory" xml:space="preserve">
+    <value>Bitte geben Sie ein Verzeichnis zum Sortieren an.</value>
+  </data>
+  <data name="selectOutputDirectory" xml:space="preserve">
+    <value>Bitte geben Sie ein Verzeichnis an, in das die sortierten Dateien platziert werden sollen.</value>
+  </data>
+  <data name="cancellationInProgress" xml:space="preserve">
+    <value>Stornierung läuft. Bitte warte.</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="reallyWantToInterrupt" xml:space="preserve">
+    <value>Möchten Sie die Operation wirklich unterbrechen?</value>
+  </data>
+  <data name="remindMyChoiceForAllFiles" xml:space="preserve">
+    <value>Erinnere mich an meine Wahl für alle Dateien.</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+</root>
